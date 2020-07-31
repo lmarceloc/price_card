@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  width: 210px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+  box-shadow: 0 0.4em 2em rgba(0, 0, 0, 0.5);
+  margin: 100px auto;
+}
+.card-heading {
+  height: 40px;
+  background: #7d40e7;
+  color: white;
+  display: flex;
+  align-items: center;
+
+}
+h4 {
+  margin-left: 10px;
+}
+.pricing {
+  background: #363636;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFF0;
+}
+p {
+  font-size: 14px;
+}
+span {
+  font-size: 100px;
+}
+sup {
+  align-self: flex-start;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+.card-features {
+  height: 100px;
+  background: #fff;
+  width: 100%;
+  color: #374140;
+}
+.card-data {
+  margin: 24px;
+  font-weight: 600;
+
+}
+button {
+  padding: 0.5em 3em;
+  border-radius: 5px;
+  color: white;
+  margin: auto;
+  background: #7d40e7;
+  border: none;
+}
